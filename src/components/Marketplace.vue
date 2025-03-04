@@ -108,6 +108,7 @@ const showDetails = (game: Game) => {
 
 <template>
   <h1>Marketplace sans vapeur</h1>
+  <img src="../assets/Steam_icon_logo.png" alt="" />
   <GameForm
     :selectedGame="selectedGame"
     @add-edit-game="addOrEditGame"
